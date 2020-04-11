@@ -19,3 +19,5 @@ flat button-----D10<br>
 screen----------SCL,SDA<br>
 breath sensor(XGZP6847)---A3<br>
 LEDs(WS2812)----D8<br>
+
+有上面的视频和引脚连接说明不用再全文翻译一次了吧...大概就是组成3字节的midi信号输出，通过usb进电脑，用hairless midiserial读取，转发到虚拟midi接口loopmidi，就可以在音色库或宿主软件读到midi信号了。并不知道在这里提供软件下载是否符合版权，后面可能会删掉
